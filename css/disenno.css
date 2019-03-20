@@ -4,6 +4,7 @@
 	font-size: 12px;
 	font-weight: 500;
     line-height: 18px;
+    width: 100%;
 }
 .rectangle-24 {
 	height: 25px;
@@ -124,3 +125,62 @@
 .alturaForm {
     height: 20px;
 }
+
+.visible {
+    display: none;
+}
+
+
+.necesitas-ayuda-91 {
+    height: 19px;
+    width: 287px;
+    color: #FFFFFF;
+    font-family: "Brandon Grotesque";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.dias-plazo-devo {
+    height: 20px;
+    width: 212px;
+    color: #FFFFFF;
+    font-family: "Brandon Grotesque";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: right;
+}
+
+@media (min-width: 989px) {
+    .hidden {
+        display: none;
+    }
+
+    .visible {
+        display: inline;
+    }
+
+    .bg-busca {
+        width: 100%;
+    }
+
+    .carrito {
+        width: 100px;
+    }
+
+    .hhd {
+        width: 100%;
+    }
+
+    .fill-7 {
+        width: 270px;
+        height: auto;
+    }
+
+    .fav {
+        width: 100px;
+        margin-top: 15px;
+    }
+}
+
+
