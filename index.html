@@ -84,14 +84,21 @@
             <p class="hidden"></p>
             <img class="visible" src="imgs/favoritos.svg">
             <p class="visible fav">Favoritos</p>
-            <img src="imgs/account.svg">
-            <p class="visible fav">Mi Cuenta</p>
+            <img class="hidden" src="imgs/account.svg">
+            <div class="col-2 nav-item dropdown visible">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><img src="imgs/account.svg">Mi cuenta</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                </div>
+            </div>
             <img class="hidden" src="imgs/cart.svg">
             <img class="visible carrito" src="imgs/Carrito.png">
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light visible col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light visible">
             <!--LISTA DEP-->
-            <div class="visible collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">SUPLEMENTOS</a>
