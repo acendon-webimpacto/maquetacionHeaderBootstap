@@ -1,0 +1,71 @@
+.envio-gratis {
+	color: #FFFFFF;
+	font-family: "Brandon Grotesque";
+	font-size: 12px;
+	font-weight: 500;
+    line-height: 18px;
+}
+.rectangle-24 {
+	height: 25px;
+	width: 320px;
+    background-color: #808080;
+    text-align: center;
+}
+.shape {	
+    height: 16px;	
+    width: 18px;
+}
+
+
+
+.fill-1 {
+	height: 18.88px;
+	width: 20.27px;
+}
+
+.menu {	
+    height: 4.56px;	
+    width: 17.84px;
+    font-size: 0.4em;
+}
+
+.bg-busca {	
+    height: 35px;	
+    width: 312px;	
+    border: 1px solid #EBE7E4;	
+    background-color: #FBFAF9;
+}
+
+.que-buscas-hoy {	
+    height: 20px;	
+    width: 100px;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;
+}
+
+.busca {	
+    height: 35px;	
+    width: 320px;
+}
+
+.bg-button {	
+    height: 35px;	
+    width: 35px;	
+    background-color: #5CB8A3;
+}
+.search-material {	
+    height: 18px;	
+    width: 18px;
+}
+.fill-7 {	
+    height: 22.08px;	
+    width: 95.43px;
+}
+.oval-3 {	
+    height: 27px;	
+    width: 27px;	
+    background-color: #F4F3F1;
+}
