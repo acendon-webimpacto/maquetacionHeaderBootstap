@@ -181,6 +181,12 @@
         width: 100%;
         margin-top: 15px;
     }
+
+    .neg {
+        font-weight: bold;
+        background-color: #FBFAF9;
+    }
+
 }
 
 
