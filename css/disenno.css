@@ -7,7 +7,7 @@
 }
 .rectangle-24 {
 	height: 25px;
-	width: 320px;
+	width: 100%;
     background-color: #808080;
     text-align: center;
 }
@@ -36,21 +36,6 @@
     background-color: #FBFAF9;
 }
 
-.que-buscas-hoy {	
-    height: 20px;	
-    width: 100px;	
-    color: #4A4A4A;	
-    font-family: "Brandon Grotesque";	
-    font-size: 14px;	
-    font-weight: 500;	
-    line-height: 20px;
-}
-
-.busca {	
-    height: 35px;	
-    width: 320px;
-}
-
 .bg-button {	
     height: 35px;	
     width: 35px;	
@@ -64,8 +49,74 @@
     height: 22.08px;	
     width: 95.43px;
 }
-.oval-3 {	
-    height: 27px;	
-    width: 27px;	
-    background-color: #F4F3F1;
+.quitoBorde {
+    border: 0px solid black;
+}
+
+.promociones-de-invi {	
+    height: 16px;	
+    width: 100%;	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 12px;	
+    line-height: 14px;	
+    text-align: center;
+}
+.rectangle-18 {	
+    height: 25px;	
+    width: 100%;	
+    background-color: #EE988B;
+}
+
+
+.imagen1 {
+    background-image: url(../imgs/photog_mobile.jpg);
+    background-repeat: no-repeat;
+    height: 230px;
+    width: 100%;
+    background-position: center; 
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rebajas-70 {	
+    height: 52px;	
+    width: 100%;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 36px;	
+    font-weight: bold;	
+    line-height: 52px;	
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.hasta-50-en-product {
+	height: 20px;
+	width: 100%;
+	color: #4A4A4A;
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+    text-align: center;
+}
+
+.rectangle-7 {
+	height: 31.81px;
+	width: 129.9px;
+	border-radius: 6px;
+	background-color: #5CB8A3;
+	box-shadow: 0 2px 0 0 #529888;
+}
+
+.mask {
+	height: 100px;
+	width: 100%;
+	border-radius: 6px;
+	background-color: #F5F5F5;
 }
