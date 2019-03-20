@@ -20,7 +20,7 @@
 
 .fill-1 {
 	height: 18.88px;
-	width: 20.27px;
+    width: 20.27px;
 }
 
 .menu {	
@@ -119,4 +119,8 @@
 	width: 100%;
 	border-radius: 6px;
 	background-color: #F5F5F5;
+}
+
+.alturaForm {
+    height: 20px;
 }
