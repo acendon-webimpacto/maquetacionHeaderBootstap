@@ -53,10 +53,12 @@
     height: 35px;	
     width: 35px;	
     background-color: #5CB8A3;
+    border: 0px;
+    border-radius: 5px;
 }
 .search-material {	
-    height: 18px;	
-    width: 18px;
+    height: 20px;	
+    width: 20px;
 }
 .fill-7 {	
     height: 22.08px;	
@@ -94,7 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 1%;
 }
 
 .rebajas-70 {
@@ -140,8 +142,12 @@
 }
 
 .mask {
-	width: 100%;
-	background-color: #F5F5F5;
+    width: 100%;
+    text-align: center;
+}
+
+.maskM {
+	margin: auto;
 }
 
 .alturaForm {
@@ -174,7 +180,11 @@
 	text-align: right;
 }
 
-@media (min-width: 989px) {
+nav {
+    background-color: #FFFFFF;
+}
+
+@media (min-width: 990px) {
     .hidden {
         display: none;
     }
@@ -187,10 +197,6 @@
         width: 100%;
     }
 
-    .carrito {
-        width: 120px;
-    }
-
     .hhd {
         width: 100%;
     }
@@ -198,6 +204,7 @@
     .fill-7 {
         width: 140px;
         height: auto;
+        margin-left: 10%;
     }
 
     .fav {
@@ -228,18 +235,10 @@
         line-height: 18px;
     }
 
-    .divgeneral {
-        display: flex;
-    }
-
     .ofertasRed {
         color: red;
     }
 
-    .margo {
-        margin-top: 0%;
-        padding-top: 0%;
-    }
 
     .que-buscas-hoy-enc {
         width: 100%;
@@ -251,7 +250,7 @@
     }
 
     .nav-item {
-        padding-left: 15px;
+        padding-left: 10px;
         font-family: "Quicksand";
     }
 
@@ -267,6 +266,18 @@
     .div2 {
         margin: auto;
     }
+
+    .rectangle-13 {
+        height: 50px;
+        width: 115px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .iconos {
+        margin-left: 130px;
+    }
+}
 
 }
 

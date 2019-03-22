@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <!--------------------------------MOVIL------------------------------------>
         <!--ENVIO-->
         <div class="d-flex justifi-content-between col-xs-12 rectangle-24">
             <p class="text-left necesitas-ayuda-91 visible hhd">
@@ -34,76 +35,16 @@
         </div>
 
         <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light col-xs-12">
-            <button class="navbar-toggler quitoBorde row" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <img class="fill-1" src="imgs/menu_mobile.svg">
-            </button>
-            <!--NAVBAR MOVIL-->
-            <div class="collapse hidden col-lg-12" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SUPLEMENTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PLANTAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ALIMENTACIÓN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COSMÉTICA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HIGIENE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">MAMÁ Y BEBÉ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">DEPORTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HUERTO</a>
-                    </li>
-                </ul>
-            </div>
-            <img class="hidden" src="imgs/telephone.svg">
-            <a class="navbar-brand" href="#"><img class="fill-7" src="imgs/logo_naturitas.svg"></a>
-
-            <!--BUSCADOR GRANDE-->
-            <form class="alturaForm visible col-lg-7">
-                <div class="form-group input-group">
-                    <input class="bg-busca form-control que-buscas-hoy-enc" type="search"
-                        placeholder="¿Qué buscas hoy? Encuentra entre más de 30 mil productos…">
-                    <button class="bg-button" type="submit"><img class="search-material" src="imgs/search.svg"></button>
-                </div>
-            </form>
-            <!--ICONOS-->
-            <div class="iconos">
-                <img class="visible" src="imgs/favoritos.svg">
-                <p class="visible fav">Favoritos</p>
-            </div>
-
-            <img class="hidden" src="imgs/account.svg">
-            <div class="nav-item dropdown visible">
-                <a class="nav-link dropdown-toggle mi-cuenta" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="imgs/account.svg">Mi
-                    cuenta</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                </div>
-            </div>
-            <img class="hidden" src="imgs/cart.svg">
-            <img class="visible carrito" src="imgs/Carrito.png">
-        </nav>
-        <!--NAVBAR DESKTOP-->
-        <nav class="navbar navbar-expand-lg navbar-light visible">
-            <div class="divgeneral">
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav  neg">
+        <div class="col-xs-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-xs-12">
+                <button class="navbar-toggler quitoBorde row" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img class="fill-1" src="imgs/menu_mobile.svg">
+                </button>
+                <!--NAVBAR MOVIL-->
+                <div class="collapse hidden col-lg-12" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">SUPLEMENTOS</a>
                         </li>
@@ -130,18 +71,14 @@
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <ul class="navbar-nav  neg">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nuestras Marcas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="ofertasRed">Ofertas<img src="imgs/offers_icon.svg"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <img class="hidden" src="imgs/telephone.svg">
+                <a class="navbar-brand hidden" href="#"><img class="fill-7" src="imgs/logo_naturitas.svg"></a>
+
+                <!--ICONOS MOVIL-->
+
+                <img class="hidden" src="imgs/account.svg">
+                <img class="hidden" src="imgs/cart.svg">
+        </div>
         <!--BUSCADOR PEQUEÑO-->
         <form class="alturaForm hidden">
             <div class="form-group input-group">
@@ -149,6 +86,89 @@
                 <button class="bg-button" type="submit"><img class="search-material" src="imgs/search.svg"></button>
             </div>
         </form>
+
+
+        <!--------------------------------DESKTOP------------------------------------>
+        <div class="col-md-12 row">
+            <a class="navbar-brand visible" href="#"><img class="fill-7" src="imgs/logo_naturitas.svg"></a>
+            <!--BUSCADOR GRANDE-->
+            <form class="alturaForm visible col-md-6 col-lg-7">
+                <div class="form-group input-group">
+                    <input class="bg-busca form-control que-buscas-hoy-enc" type="search"
+                        placeholder="¿Qué buscas hoy? Encuentra entre más de 30 mil productos…">
+                    <button class="bg-button" type="submit"><img class="search-material" src="imgs/search.svg"></button>
+                </div>
+            </form>
+
+            <!--ICONOS DESKTOP-->
+            <div class="col-8 col-sm-6 col-md-3">
+                <div class="row d-flex align-items-center">
+                    <div class="iconos"><img class="visible" src="imgs/favoritos.svg">
+                        <a href="#" class="visible fav">Favoritos</a>
+                    </div>
+
+                    <div class="nav-item dropdown visible">
+                        <a class="nav-link dropdown-toggle mi-cuenta" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                src="imgs/account.svg">Mi
+                            cuenta</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </div>
+                    </div>
+
+                    <img class="visible rectangle-13" src="imgs/Carrito.png">
+                </div>
+            </div>
+
+
+            </nav>
+            <!--NAVBAR DESKTOP-->
+
+            <nav class="navbar navbar-expand-lg navbar-light visible col-md-12">
+                <div class="d-flex">
+                    <div class="navbar-collapse">
+                        <ul class="navbar-nav  neg">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SUPLEMENTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PLANTAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ALIMENTACIÓN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">COSMÉTICA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HIGIENE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MAMÁ Y BEBÉ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">DEPORTE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HUERTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="navbar-nav  neg">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nuestras Marcas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span class="ofertasRed">Ofertas<img
+                                            src="imgs/offers_icon.svg"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
     </header>
     <!--FRANJA ROSA-->
     <div class="rectangle-18">
@@ -166,7 +186,10 @@
     </div>
     <!--BANNER MOVIL-->
     <div class="mask hidden">
-        <img src="imgs/bannerp_01_mob.jpg">
+        <div class="maskM">
+            <img src="imgs/bannerp_01_mob.jpg">
+        </div>
+
     </div>
     <!--BANNERS DESKTOP-->
     <div class="visible d-flex justifi-content-around">
