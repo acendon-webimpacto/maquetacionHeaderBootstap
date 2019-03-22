@@ -2,6 +2,11 @@
     font-family: "Brandon Grotesque"; 
     src: url('Brandon_reg.otf'); 
 } 
+@font-face { 
+    font-family: "Quicksand"; 
+    src: url('Quicksand_Bold.otf'); 
+} 
+
 
 .envio-gratis {
 	height: 20px;
@@ -135,9 +140,7 @@
 }
 
 .mask {
-	height: 100px;
 	width: 100%;
-	border-radius: 6px;
 	background-color: #F5F5F5;
 }
 
@@ -223,7 +226,14 @@
         font-size: 14px;
         font-weight: bold;
         line-height: 18px;
-        
+    }
+
+    .divgeneral {
+        display: flex;
+    }
+
+    .ofertasRed {
+        color: red;
     }
 
     .margo {
@@ -242,11 +252,22 @@
 
     .nav-item {
         padding-left: 15px;
+        font-family: "Quicksand";
     }
 
     .iconos {
         margin-left: 40px;
     }
+
+    .maskD {
+        width: 50%;
+        text-align: center;
+    }
+
+    .div2 {
+        margin: auto;
+    }
+
 }
 
 

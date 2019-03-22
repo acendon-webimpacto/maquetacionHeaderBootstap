@@ -72,8 +72,8 @@
             <img class="hidden" src="imgs/telephone.svg">
             <a class="navbar-brand" href="#"><img class="fill-7" src="imgs/logo_naturitas.svg"></a>
 
-            <!--FORM GRANDE-->
-            <form class="alturaForm visible col-md-7">
+            <!--BUSCADOR GRANDE-->
+            <form class="alturaForm visible col-lg-7">
                 <div class="form-group input-group">
                     <input class="bg-busca form-control que-buscas-hoy-enc" type="search"
                         placeholder="¿Qué buscas hoy? Encuentra entre más de 30 mil productos…">
@@ -101,36 +101,48 @@
         </nav>
         <!--NAVBAR DESKTOP-->
         <nav class="navbar navbar-expand-lg navbar-light visible">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto neg">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SUPLEMENTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PLANTAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ALIMENTACIÓN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COSMÉTICA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HIGIENE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">MAMÁ Y BEBÉ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">DEPORTE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HUERTO</a>
-                    </li>
-                </ul>
+            <div class="divgeneral">
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav  neg">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SUPLEMENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PLANTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ALIMENTACIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COSMÉTICA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HIGIENE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAMÁ Y BEBÉ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DEPORTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HUERTO</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav  neg">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuestras Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span class="ofertasRed">Ofertas<img src="imgs/offers_icon.svg"></span></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!--FORM PEQUEÑO-->
+        <!--BUSCADOR PEQUEÑO-->
         <form class="alturaForm hidden">
             <div class="form-group input-group">
                 <input class="bg-busca form-control" type="search" placeholder="¿Qué buscas hoy?">
@@ -138,12 +150,13 @@
             </div>
         </form>
     </header>
-
+    <!--FRANJA ROSA-->
     <div class="rectangle-18">
         <p class="promociones-de-invi">
             ¡Promociones de invierno! Gastos de envío gratis para cosmética
         </p>
     </div>
+    <!--REBAJAS-->
     <div class="imagen1">
         <div>
             <p class="rebajas-70">Rebajas -70%</p>
@@ -151,9 +164,27 @@
             <button class="rectangle-7"><span class="compra-ya">COMPRAR YA</span></button>
         </div>
     </div>
-    <div class="mask">
+    <!--BANNER MOVIL-->
+    <div class="mask hidden">
         <img src="imgs/bannerp_01_mob.jpg">
     </div>
+    <!--BANNERS DESKTOP-->
+    <div class="visible d-flex justifi-content-around">
+        <!--BANNER 1-->
+        <div class="maskD visible">
+            <div class="div2">
+                <img src="imgs/bannerp_01.jpg">
+            </div>
+        </div>
+        <!--BANNER 2-->
+        <div class="maskD visible">
+            <div class="div2">
+                <img src="imgs/bannerp_02.jpg">
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
